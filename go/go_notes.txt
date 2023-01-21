@@ -1,2 +1,5 @@
 Go tutorial - https://youtu.be/yyUHQIec83I
 Data Types in Go - https://www.geeksforgeeks.org/data-types-in-go/
+type conversion in Go - https://www.geeksforgeeks.org/type-casting-or-type-conversion-in-golang/
+array in Go - https://www.geeksforgeeks.org/arrays-in-go/
+Find the Type of Variable in Go -https://www.geeksforgeeks.org/different-ways-to-find-the-type-of-variable-in-golang/
