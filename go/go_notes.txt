@@ -1,0 +1,2 @@
+Go tutorial - https://youtu.be/yyUHQIec83I
+Data Types in Go - https://www.geeksforgeeks.org/data-types-in-go/
