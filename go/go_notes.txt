@@ -4,8 +4,9 @@ type conversion in Go - https://www.geeksforgeeks.org/type-casting-or-type-conve
 array in Go - https://www.geeksforgeeks.org/arrays-in-go/
 Find the Type of Variable in Go -https://www.geeksforgeeks.org/different-ways-to-find-the-type-of-variable-in-golang/
 Slice in go - https://www.geeksforgeeks.org/slices-in-golang/
-
-
-
+if-else in go - https://www.geeksforgeeks.org/go-decision-making-if-if-else-nested-if-if-else-if/
+Switch Statement in Go - https://www.geeksforgeeks.org/switch-statement-in-go/
+Loops in Go Language - https://www.geeksforgeeks.org/loops-in-go-language/
+Functions in Go Language - https://www.geeksforgeeks.org/functions-in-go-language/
 convert int to char golang-https://stackoverflow.com/questions/67733156/convert-int-to-ascii-more-than-one-character-in-rune-literal
 Channel in Golang - https://www.geeksforgeeks.org/channel-in-golang/
