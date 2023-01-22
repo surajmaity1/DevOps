@@ -3,3 +3,9 @@ Data Types in Go - https://www.geeksforgeeks.org/data-types-in-go/
 type conversion in Go - https://www.geeksforgeeks.org/type-casting-or-type-conversion-in-golang/
 array in Go - https://www.geeksforgeeks.org/arrays-in-go/
 Find the Type of Variable in Go -https://www.geeksforgeeks.org/different-ways-to-find-the-type-of-variable-in-golang/
+Slice in go - https://www.geeksforgeeks.org/slices-in-golang/
+
+
+
+convert int to char golang-https://stackoverflow.com/questions/67733156/convert-int-to-ascii-more-than-one-character-in-rune-literal
+Channel in Golang - https://www.geeksforgeeks.org/channel-in-golang/
