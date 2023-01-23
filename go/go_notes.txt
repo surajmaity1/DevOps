@@ -11,5 +11,7 @@ Functions in Go Language - https://www.geeksforgeeks.org/functions-in-go-languag
 Packages in Golang - https://www.geeksforgeeks.org/packages-in-golang/
 Scope of Variables in Go - https://www.geeksforgeeks.org/scope-of-variables-in-go/
 Golang Maps -https://www.geeksforgeeks.org/golang-maps/
+Structures in Golang - https://www.geeksforgeeks.org/structures-in-golang/
+
 convert int to char golang-https://stackoverflow.com/questions/67733156/convert-int-to-ascii-more-than-one-character-in-rune-literal
 Channel in Golang - https://www.geeksforgeeks.org/channel-in-golang/
