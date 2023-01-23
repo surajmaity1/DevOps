@@ -8,5 +8,8 @@ if-else in go - https://www.geeksforgeeks.org/go-decision-making-if-if-else-nest
 Switch Statement in Go - https://www.geeksforgeeks.org/switch-statement-in-go/
 Loops in Go Language - https://www.geeksforgeeks.org/loops-in-go-language/
 Functions in Go Language - https://www.geeksforgeeks.org/functions-in-go-language/
+Packages in Golang - https://www.geeksforgeeks.org/packages-in-golang/
+Scope of Variables in Go - https://www.geeksforgeeks.org/scope-of-variables-in-go/
+Golang Maps -https://www.geeksforgeeks.org/golang-maps/
 convert int to char golang-https://stackoverflow.com/questions/67733156/convert-int-to-ascii-more-than-one-character-in-rune-literal
 Channel in Golang - https://www.geeksforgeeks.org/channel-in-golang/
