@@ -1,0 +1,64 @@
+--2023-01-20 10:09:01--  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2405:200:1607:2820:41::36, 49.44.79.236
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:13:23--  (try: 2)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:17:46--  (try: 3)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:22:11--  (try: 4)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:26:36--  (try: 5)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:31:04--  (try: 6)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:35:31--  (try: 7)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:39:58--  (try: 8)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:44:27--  (try: 9)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:48:57--  (try:10)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:53:28--  (try:11)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 10:57:58--  (try:12)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-20 11:02:29--  (try:13)  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2405:200:1607:2820:41::36|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|49.44.79.236|:443... 

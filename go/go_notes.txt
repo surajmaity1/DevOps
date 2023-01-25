@@ -1,4 +1,7 @@
 Go tutorial - https://youtu.be/yyUHQIec83I
+
+
+
 Data Types in Go - https://www.geeksforgeeks.org/data-types-in-go/
 type conversion in Go - https://www.geeksforgeeks.org/type-casting-or-type-conversion-in-golang/
 array in Go - https://www.geeksforgeeks.org/arrays-in-go/
@@ -12,6 +15,8 @@ Packages in Golang - https://www.geeksforgeeks.org/packages-in-golang/
 Scope of Variables in Go - https://www.geeksforgeeks.org/scope-of-variables-in-go/
 Golang Maps -https://www.geeksforgeeks.org/golang-maps/
 Structures in Golang - https://www.geeksforgeeks.org/structures-in-golang/
+time.Sleep() Function in Golang - https://www.geeksforgeeks.org/time-sleep-function-in-golang-with-examples/
+Golang | Goroutine vs Thread - https://www.geeksforgeeks.org/golang-goroutine-vs-thread/
 
 convert int to char golang-https://stackoverflow.com/questions/67733156/convert-int-to-ascii-more-than-one-character-in-rune-literal
 Channel in Golang - https://www.geeksforgeeks.org/channel-in-golang/
