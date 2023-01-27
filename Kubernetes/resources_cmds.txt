@@ -1,0 +1,56 @@
+
+resources -
+https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/#kind-can-i-see-a-nice-dashboard
+
+
+
+commands -
+
+minikube start
+minikube status
+kubectl get nodes
+
+
+
+
+CRUD COMMANDS:
+kubectl create deployment mongo-depl --image=mongo
+kubectl edit deployment mongo-depl
+kubectl delete deployment mongo-depl
+
+
+
+STATUS OF DIFFERENT K8S COMPONENTS:
+kubectl get deployment
+kubectl get pod
+kubectl get replicaset
+
+
+DEBUGGING PODS:
+LOG TO CONSOLE:     kubectl logs POD_NAME
+GET INTERACTIVE TERMINAL:  kubectl exec -it mongo-depl-8fbdb868c-wpq6n -- bin/bash 
+GET INFO ABOUT POD : kubectl describe pod mongo-depl-8fbdb868c-wpq6n
+
+
+USE CONFIGURATION FILE FOR CRUD:
+APPLY A CONFIGURATION FILE: kubectl apply -f nginx-deployment.yaml
+DELETE A CONFIGURATION FILE: kubectl delete -f nginx-deployment.yaml
+
+
+
+
+kubectl apply -f nginx-service.yaml
+kubectl get service
+kubectl describe service nginx-service
+kubectl get pod -o wide
+kubectl get deployment nginx-deployment -o yaml
+kubectl get all
+
+
+echo -n 'username' | base64
+echo -n 'password' | base64
+
+kubectl apply -f mongo-secret.yaml
+kubectl get all | grep mongodb
+kubectl apply -f mongo-configmap.yaml
+kubectl apply -f mongo-express.yaml
