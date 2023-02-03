@@ -28,6 +28,16 @@ func main() {
 
 	slice1 := []int{43, 2, 12, 444, 32}
 
+	// Note here index variable is index, it is not a value of the slice1
+	for index := range slice1 {
+		fmt.Println(slice1[index])
+
+		// If the index is 3, it will jump to goto, let's call it
+		goto just_go_to
+	}
+just_go_to:
+	fmt.Println("It is a go to just_go_to")
+
 	for index, element := range slice1 {
 		fmt.Println("Index:", index, "Element:", element)
 	}
@@ -48,22 +58,20 @@ func main() {
 		3: "c",
 	}
 
-	for key, val := range map1{
+	for key, val := range map1 {
 		fmt.Println("key:", key, "val:", val)
 	}
 
-
-
 	//use for loop using channel
 	channel5 := make(chan int)
-    go func(){
+	go func() {
 		channel5 <- 11
 		channel5 <- 12
 		channel5 <- 13
 		channel5 <- 14
 		close(channel5)
-    }()
-    for i:= range channel5 {
-       fmt.Println(i) 
-    }
+	}()
+	for i := range channel5 {
+		fmt.Println(i)
+	}
 }

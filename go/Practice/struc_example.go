@@ -6,11 +6,11 @@ type Student struct{
 	/*
 	Name string
 	Age int
-	blood_grp string
+	Blood_grp string
 
 	or below as it is
 	*/
-	Name, blood_grp string
+	Name, Blood_grp string
 	Age int
 }
 
@@ -21,10 +21,10 @@ func main(){
 	s2 := Student{Name: "Sudipta"}
 	fmt.Println("s2:", s2)
 
-	var s3 Student
+	var s3 = Student{"Suraj Maity", "Don't Know", 99}
 	fmt.Println("s3:", s3)
 
-
+	fmt.Printf("s3 studnet's details: %+v \n", s3)
 	// access fields of struct
 	fmt.Println("s2's name:", s2.Name)
 

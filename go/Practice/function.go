@@ -3,37 +3,46 @@ package main
 import "fmt"
 
 // Function without return type
-func fun1(str1 string, str2 string){
-	fmt.Println("You said:", str1,str2)
+func fun1(str1 string, str2 string) {
+	fmt.Println("You said:", str1, str2)
 }
+
 // Function with return type
 
-func fun2(str1 string, str2 string)string{
+func fun2(str1 string, str2 string) string {
 	return "You said: " + str1 + " " + str2
 }
 
 // Function to return multi return value
-func fun3(str1 string, str2 string) (string, string){
+func fun3(str1 string, str2 string) (string, string) {
 	str1 += " ready to go"
 	str2 += " ready to go"
 	return str1, str2
 }
 
 // Function to swap two number using call by value
-func swapCall(a int, b int){
+func swapCall(a int, b int) {
 	a = a ^ b
 	b = a ^ b
 	a = a ^ b
 }
 
 // Function to swap two number using call by reference
-func swapRef(a *int, b *int){
+func swapRef(a *int, b *int) {
 	*a = *a ^ *b
 	*b = *a ^ *b
 	*a = *a ^ *b
 }
 
-func main(){
+// PRO FUNCTIION
+func proFunAdd(values ...int) int {
+	result := 0
+	for _, val := range values {
+		result += val
+	}
+	return result
+}
+func main() {
 	fun1("hello", "everyone")
 	fmt.Println(fun2("Good", "day"))
 
@@ -46,9 +55,11 @@ func main(){
 	swapCall(a, b)
 	fmt.Println("After swapping using call by val: a:", a, ", b:", b)
 
-
 	fmt.Println("Before swapping: a:", a, ", b:", b)
 	swapRef(&a, &b)
 	fmt.Println("After swappingusing call by ref: a:", a, ", b:", b)
 
+	fmt.Println("Pro fun:")
+	result := proFunAdd(1, 2, 3, 4, 5, 6, 7, 8) // you can pass more argumennt here
+	fmt.Println("result:", result)
 }

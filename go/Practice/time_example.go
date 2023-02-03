@@ -5,7 +5,7 @@ import (
 	"time"
 )
 func main(){
-	/*
+	
 	fmt.Println()
 
 	chan1 := make(chan string, 2)
@@ -39,7 +39,7 @@ func main(){
 		fmt.Println("Printing this line after 7 second for chan2")
 	}
 
-	*/
+	
 	// FETCH TIME AND MAKE IT A FORMATTED OUTPUT
 
 	presentTime := time.Now()

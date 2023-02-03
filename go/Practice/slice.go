@@ -101,4 +101,27 @@ func main() {
 	slice7 := []int{43, 2, 12, 444, 32}
 	sort.Ints(slice7)
 	fmt.Println("sorted slice:", slice7)
+
+	// check if slice7 is sorted or not
+	fmt.Println(sort.IntsAreSorted(slice7))
+
+
+	// note this is very important
+	slice8 := make([]int, 1)
+	// note this is default allocation of memory
+	slice8[0] = 1
+
+	// if you try to insert a value slice8[1] = 2 // you will get an error
+	// you have to reallocate using make() fun
+
+	//slice8[1] = 2 // error: 	panic: runtime error: index out of range [1] with length 1
+	slice8 = append(slice8, 2,3,4,5,6,7)
+	fmt.Println(slice8)
+
+
+	// How to remove element from slice
+	// let's say we will remove 4th element i.e 4
+	var remIndex = 3
+	slice8 = append(slice8[:remIndex], slice8[remIndex+1:]...)
+	fmt.Println(slice8)
 }
