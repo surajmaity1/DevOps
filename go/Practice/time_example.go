@@ -5,6 +5,7 @@ import (
 	"time"
 )
 func main(){
+	/*
 	fmt.Println()
 
 	chan1 := make(chan string, 2)
@@ -37,4 +38,16 @@ func main(){
 	case <- time.After(7 * time.Second) :
 		fmt.Println("Printing this line after 7 second for chan2")
 	}
+
+	*/
+	// FETCH TIME AND MAKE IT A FORMATTED OUTPUT
+
+	presentTime := time.Now()
+	fmt.Println(presentTime)
+
+	fmt.Println(presentTime.Format("01-02-2006 15:04:05 Monday"))
+
+	createDate := time.Date(2023, time.February, 3, 11, 8, 0, 0, time.UTC)
+	fmt.Println(createDate)
+	fmt.Println(createDate.Format("01-02-2006 15:04:05 Monday"))
 }
