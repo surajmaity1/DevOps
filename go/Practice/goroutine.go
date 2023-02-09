@@ -8,6 +8,9 @@ import (
 )
 
 var wait_grp sync.WaitGroup
+var mutex sync.Mutex
+
+var store_webs = []string{"demo"}
 
 func main() {
 	/*
@@ -29,6 +32,7 @@ func main() {
 	}
 
 	wait_grp.Wait()
+	fmt.Println("Websites:", store_webs)
 }
 
 func caller(s string) {
@@ -45,6 +49,9 @@ func getStatusCode(endpoint string) {
 	if err != nil {
 		fmt.Println("###### ERROR #######")
 	} else {
+		mutex.Lock()
+		store_webs = append(store_webs, endpoint)
+		mutex.Unlock()
 		fmt.Printf("%d status code for %s\n", res.StatusCode, endpoint)
 
 	}
