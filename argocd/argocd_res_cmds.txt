@@ -1,0 +1,18 @@
+resources:
+
+https://argo-cd.readthedocs.io/en/stable/getting_started/
+https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
+
+
+
+commands:
+
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+kubectl get pod -n argocd
+kubectl get pod -n argocd -w
+kubectl get svc -n argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl get secret argocd-initial-admin-secret -n argocd -o yaml
+
+
