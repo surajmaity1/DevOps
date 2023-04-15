@@ -5,7 +5,7 @@ docker network ls
 
 https://hub.docker.com/_/mongo
 https://hub.docker.com/_/mongo-express
-
+https://docs.docker.com/engine/reference/commandline/exec/
 http://localhost:3000/
 
 
@@ -29,3 +29,24 @@ docker run -d \
 mongo-express
 
 
+# Run docker exec on a running container
+docker run --name mycontainer -dit alpine /bin/sh
+
+# creates a new file /home/workspace inside the running container
+docker exec -d mycontainer touch /home/workspace
+
+# Set environment variables for the exec process
+docker exec -e MY_VAR_1="ONE" -e TEMP_VAR="END" mycontainer env
+
+# By default docker exec command runs in the same working directory set when the container was created.
+# We can specify an alternative working directory for the command to execute using the --workdir option (or the -w shorthand):
+docker exec -it -w /home/workspace_dir mycontainer pwd
+
+# Get Docker container id from container name
+# -q for quiet. output only the ID
+# -a for all. works even if your container is not running
+# -f for filter.
+docker ps -aqf "name=mycontainer"
+
+# Create Custom image (check 'custom-mongo-image' folder)
+docker build -t surajmaity1/custom-mongo:v1 .
