@@ -50,3 +50,7 @@ docker ps -aqf "name=mycontainer"
 
 # Create Custom image (check 'custom-mongo-image' folder)
 docker build -t surajmaity1/custom-mongo:v1 .
+
+# Run app inside a container and get output at specific port in your machine
+docker run -t -i -p YOUR_MACHINE_PORT:PORT_DOCKER surajmaity1/app
+
