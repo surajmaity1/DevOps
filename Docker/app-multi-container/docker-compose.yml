@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mymongo:
+    image: "mongo"
+    volumes:
+      - mongo_db:/data/db
+  
+  mynode:
+    build: .
+    ports:
+      - "8000:8000"
+
+volumes:
+  mongo_db:
